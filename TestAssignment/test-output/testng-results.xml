@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56290" started-at="2020-05-02T01:45:06 IST" finished-at="2020-05-02T01:46:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56290" started-at="2020-05-02T01:45:06 IST" finished-at="2020-05-02T01:46:02 IST">
+      <class name="TestAssignment.Question4">
+        <test-method status="PASS" signature="Test4(java.lang.String, java.lang.String)[pri:0, instance:TestAssignment.Question4@7f13d6e]" name="Test4" duration-ms="21789" started-at="2020-05-02T01:45:07 IST" data-provider="QA" finished-at="2020-05-02T01:45:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amul butter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amul butter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="Test4(java.lang.String, java.lang.String)[pri:0, instance:TestAssignment.Question4@7f13d6e]" name="Test4" duration-ms="33763" started-at="2020-05-02T01:45:29 IST" data-provider="QA" finished-at="2020-05-02T01:46:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amul Butter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amul Butter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+      </class> <!-- TestAssignment.Question4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
