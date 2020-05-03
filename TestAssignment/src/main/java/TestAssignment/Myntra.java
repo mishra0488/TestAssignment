@@ -26,12 +26,18 @@ public class Myntra {
 		driver.get("https://www.myntra.com/ethnic-wear-dresses-menu");
 
 		
-		List<WebElement> boxList = driver.findElements(By.xpath("(//input[@type='checkbox'])[1]"));
+		/*List<WebElement> boxList = driver.findElements(By.xpath("//input[@type='checkbox']"));
 		
 		System.out.println(boxList.size());
 
 		for (int i = 0; i < 4; i++) {
 			boxList.get(i).click();
+		}*/
+
+                for (int i = 1; i <= 4; i++) {
+			WebElement element = driver.findElement(By.xpath("(//input[@type='checkbox'])" + "[" + i + "]"));
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].click();", element);
 		}
 	
 		
