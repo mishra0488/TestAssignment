@@ -19,6 +19,8 @@ public class Airbnb {
 		driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
 
 		driver.get("https://www.airbnb.co.in/");
+
+driver.findElement(By.xpath("//button[@class = '_547li01']")).click();
 		
 		driver.findElement(By.xpath("//*[@id = 'simple-header-locale-menu']//a[2]/div[@class = '_ojs7nk']")).click();
 	}
